@@ -1,0 +1,210 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+body{
+	background-color: #ffffff;
+}
+.container {
+	margin: auto;
+	width: 100%;
+}
+#heading{
+	text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
+a{
+  color: #333;
+	text-decoration: none;
+}
+
+/* nav start */
+nav{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1.5rem;
+	padding: 0 5rem;
+	background-color: #ffffff;
+}
+
+nav ul li{
+	display: inline;
+	justify-content: space-between;
+	list-style-type: none;
+	padding: 1em ;
+}
+nav ul li a{
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: bold;
+	color: #778899;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+	color: #ff0000;
+}
+nav ul li a:focus{
+	cursor: pointer;
+}
+/* nav end */
+
+/* header start */
+/* comment:height: 100vh = 100% of the viewport height  */
+#header-content{
+	background: url(../img/drone-background3.jpg);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-size: cover;
+}	
+#header-content > div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#header-content > div{
+	position: relative;
+	top: 210px;
+}
+#header-content a{
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding: 1rem 1rem;
+	background-color: black;
+	color: #ffff00;
+	border-radius: 5px;
+}
+#header-content a:hover{
+	color: #ff0000;
+}
+/* heander end */
+
+/* main content start */
+
+#main-content{
+	text-align: center;
+	letter-spacing: 0.1rem;
+	line-height: 1rem;
+	background-color: #d3d3d3;
+}
+
+#main-content h2{
+	padding: 4rem 0 2rem 0;
+	font-size: 1.5rem;
+}
+#main-content p{
+	line-height: 180%;
+	padding: 1rem 5rem 5rem 5rem;
+}
+/* main content end */
+
+/* package content start */
+#packages{
+	background-color: #cec5c0;
+	padding: 0 1rem 2rem 1rem;
+}
+#packages h2{
+	padding: 3rem 5rem 4rem 5rem;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+#package-options{
+	display: flex;
+	justify-content: space-between;
+}
+#package-options h3{
+	text-align: center;
+	padding-bottom: 1rem;
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#package-options p{
+	line-height: 180%;
+	text-align: center;
+	padding: 2rem 0 2rem 0;
+}
+.buy-button a{
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	color: #ffff00;
+	margin: .5rem 10rem .5rem 10rem;
+	padding: .5rem 1rem .5rem 1rem;
+	border-radius: 5px;
+}
+.buy-button a:hover{
+	color: red;
+}
+/* package content end */
+
+/* Contact form start */
+#contact-us{
+	background-color: #d3d3d3;
+}
+form{
+  box-sizing: border-box;
+}
+
+#form-style{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+	padding: 2rem;
+}
+
+#form-style h2{
+	text-align: center;
+	padding-bottom: 2rem;
+}
+input[type=text] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 1rem;
+  margin: 8px 0 20px 0; 
+	border: 2px solid #ccc;
+	background-color: #f5eeee;
+}
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 12px 0;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+	resize: none;
+	background-color: #f5eeee;
+}
+#submit-btn{
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  text-decoration: none;
+  background-color: black;
+	color: #ffff00;
+	margin: 1.5rem 10rem .5rem 10rem;
+	padding: .5rem 1rem .5rem 1rem;
+	border-radius: 5px;
+}
+#form-style a:hover{
+  color: red;
+}
+/* Contact form end */
+
+/* footer start*/
+footer{
+	text-align: center;
+	background-color: #333;
+	color: white;
+	padding: 1.5rem;
+}
+/* footer end */
